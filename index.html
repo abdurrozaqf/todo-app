@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>TODOS</h2>
+      <p class="sub-title-1">Tulis yang perlu dicatat hari ini</p>
+      <div class="container-form">
+        <form id="form">
+          <input
+            type="text"
+            id="input"
+            class="input"
+            placeholder="Ketik catatanmu disini"
+            autocomplete="off"
+          />
+        </form>
+        <button type="button" class="plus-button" id="button">+</button>
+      </div>
+      <p class="sub-title-2">Catatan yang masuk</p>
+      <ul class="todos" id="todos"></ul>
+      <small style="margin-top: 1rem"
+        >Note*
+        <br />
+        > Klik kiri untuk coret catatan <br />
+        > Klik kanan untuk hapus catatan
+      </small>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
