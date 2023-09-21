@@ -12,7 +12,11 @@ if (todos) {
     });
 }
 
-myButton.addEventListener('click', function () {
+myButton.addEventListener('click', ()=> {
+    addTodo();
+  });
+
+form.addEventListener('submit', ()=> {
     addTodo();
   });
 

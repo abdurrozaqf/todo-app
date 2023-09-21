@@ -24,6 +24,7 @@ body {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .container ul {
@@ -95,11 +96,14 @@ button {
 }
 
 .todos {
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 0;
   margin: 0;
   list-style-type: none;
-  max-height: 430px;
+  max-height: 380px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #d6dae2, #ffffff);
+  box-shadow: 20px 20px 60px #caced5, -20px -20px 60px #ffffff;
 }
 
 .todos li {
@@ -118,4 +122,6 @@ button {
 small {
   color: #b5b5b5;
   text-align: left;
+  position: absolute;
+  bottom: 3%;
 }
